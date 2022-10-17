@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Red"
+        android:id="@+id/red"
+        android:icon="@android:drawable/btn_star"
+        android:iconTint="#FF0000"
+        app:showAsAction="always|withText" />
+    <item
+        android:title="Green"
+        android:id="@+id/green"
+        android:icon="@android:drawable/btn_star"
+        android:iconTint="#00FF00"
+        app:showAsAction="always|withText" />
+    <item
+        android:title="Blue"
+        android:id="@+id/blue"
+        android:icon="@android:drawable/btn_star"
+        android:iconTint="#0000FF"
+        app:showAsAction="always|withText" />
+        />
+
+</menu>
